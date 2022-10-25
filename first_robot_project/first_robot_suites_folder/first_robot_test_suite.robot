@@ -8,8 +8,11 @@ Test Teardown    Log    Inside Test Teardown
 
 *** Test Cases ***
 MyFistrTest
-    BuiltIn.Log    Salut    
+    BuiltIn.Log    Inside 1st test    
 
+MySecondTest
+    BuiltIn.Log    Inside 2nd test
+    
 MyFirstSeleniumTest 
      
     Open Browser    https://google.com    chrome
